@@ -8,7 +8,7 @@ scalaVersion := "2.11.7"
 
 version := "0.0"
 
-mainClass in assembly := Some("mxnetScala.main.Run")
+mainClass in assembly := Some("mxnetScala.main.TrainMnist")
 
 resolvers ++= Seq(
   "Sonatype Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
